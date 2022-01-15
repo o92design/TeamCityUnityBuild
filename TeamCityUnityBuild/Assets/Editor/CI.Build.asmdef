@@ -1,0 +1,16 @@
+{
+    "name": "CI.Build",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bf7b7d9340660ea4495e1f45f0fc349d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
