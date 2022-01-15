@@ -26,7 +26,7 @@ public static class BuildConstants
         Itch_io,
     }
 
-    public static readonly System.DateTime buildDate = new System.DateTime(637778864190767431);
+    public static readonly System.DateTime buildDate = new System.DateTime(637778910630678390);
     public const string version = "0.0.0.1";
     public const ReleaseType releaseType = ReleaseType.Dev;
     public const Platform platform = Platform.WebGL;
