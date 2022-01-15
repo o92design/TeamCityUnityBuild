@@ -5,35 +5,32 @@ public static class BuildConstants
     public enum ReleaseType
     {
         None,
-        Development,
+        Dev,
     }
 
     public enum Platform
     {
         None,
         WebGL,
-        PC,
     }
 
     public enum Architecture
     {
         None,
         WebGL,
-        Windows_x64,
     }
 
     public enum Distribution
     {
         None,
         Itch_io,
-        itch_io,
     }
 
-    public static readonly System.DateTime buildDate = new System.DateTime(637778808616105129);
+    public static readonly System.DateTime buildDate = new System.DateTime(637778864190767431);
     public const string version = "0.0.0.1";
-    public const ReleaseType releaseType = ReleaseType.Development;
-    public const Platform platform = Platform.PC;
-    public const Architecture architecture = Architecture.Windows_x64;
-    public const Distribution distribution = Distribution.itch_io;
+    public const ReleaseType releaseType = ReleaseType.Dev;
+    public const Platform platform = Platform.WebGL;
+    public const Architecture architecture = Architecture.WebGL;
+    public const Distribution distribution = Distribution.Itch_io;
 }
 
