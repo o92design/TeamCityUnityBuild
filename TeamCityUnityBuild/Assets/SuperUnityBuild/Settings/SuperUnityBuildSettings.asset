@@ -54,7 +54,7 @@ MonoBehaviour:
       bundleIdentifier: com.DefaultCompany.TeamCityUnityBuild
       companyName: o92design
       productName: TeamCityUnityBuild
-      buildOptions: 1
+      buildOptions: 536871425
       customDefines: 
       sceneList:
         enabledScenes:
