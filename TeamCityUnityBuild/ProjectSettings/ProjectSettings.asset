@@ -562,7 +562,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: BUILD_TYPE_DEV;BUILD_PLATFORM_PC;BUILD_ARCH_WINDOWSX64;BUILD_DIST_ITCH_WINDOWS
+    1: 
     13: BUILD_TYPE_DEV;BUILD_PLATFORM_WEBGL;BUILD_ARCH_WEBGL;BUILD_DIST_ITCH_IO
   additionalCompilerArguments: {}
   platformArchitecture: {}
