@@ -337,6 +337,7 @@ namespace SuperUnityBuild.BuildTool
 
             PerformPreBuild(out DateTime buildTime);
 
+            Debug.LogFormat("Build Configs passed in: {0}\n{1}", buildConfigs.Length, buildConfigs);
             for (int i = 0; i < buildConfigs.Length; i++)
             {
                 string configKey = buildConfigs[i];
