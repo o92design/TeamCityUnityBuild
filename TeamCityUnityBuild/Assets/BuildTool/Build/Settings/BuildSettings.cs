@@ -102,6 +102,7 @@ namespace SuperUnityBuild.BuildTool
         {
             get
             {
+                Debug.Log("Fetching ProjectConfig Asset: " + instance._projectConfigurations);
                 return instance._projectConfigurations;
             }
         }

@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.0.0.1
+  bundleVersion: 0.0.0.2
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -156,11 +156,11 @@ PlayerSettings:
     Standalone: com.DefaultCompany.TeamCityUnityBuild
     WebGL: com.DefaultCompany.TeamCityUnityBuild
   buildNumber:
-    Standalone: 2
-    iPhone: 2
+    Standalone: 3
+    iPhone: 3
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 3
+  AndroidBundleVersionCode: 4
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -562,7 +562,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: 
+    1: BUILD_TYPE_DEV;BUILD_PLATFORM_PC;BUILD_ARCH_WINDOWSX64;BUILD_DIST_ITCH_WINDOWS
     13: BUILD_TYPE_DEV;BUILD_PLATFORM_WEBGL;BUILD_ARCH_WEBGL;BUILD_DIST_ITCH_IO
   additionalCompilerArguments: {}
   platformArchitecture: {}
