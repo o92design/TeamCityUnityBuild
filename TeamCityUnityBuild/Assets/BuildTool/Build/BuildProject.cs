@@ -387,10 +387,12 @@ namespace SuperUnityBuild.BuildTool
                     true, null));
 
             // Open output folder if option is enabled.
+            /*  Removing this until I can figure why it hasn't been generated -.-*
             if (BuildSettings.basicSettings.openFolderPostBuild)
             {
                 System.Diagnostics.Process.Start(BuildSettings.basicSettings.baseBuildFolder);
             }
+            /* */
         }
 
         private static bool BuildPlayer(string notification, BuildReleaseType releaseType, BuildPlatform platform, BuildArchitecture architecture, BuildDistribution distribution, DateTime buildTime, BuildOptions options, string configKey)
