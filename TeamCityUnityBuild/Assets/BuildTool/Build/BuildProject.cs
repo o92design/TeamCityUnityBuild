@@ -343,6 +343,7 @@ namespace SuperUnityBuild.BuildTool
 
                 // Parse build config and perform build.
                 string notification = string.Format("Building ({0}/{1}): ", i + 1, buildConfigs.Length);
+                Debug.Log(notification);
                 BuildSettings.projectConfigurations.ParseKeychain(configKey, out BuildReleaseType releaseType, out BuildPlatform platform, out BuildArchitecture arch, out BuildDistribution dist);
                 bool success = BuildPlayer(notification, releaseType, platform, arch, dist, buildTime, options, configKey);
 
