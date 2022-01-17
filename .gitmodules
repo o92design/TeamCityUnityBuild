@@ -1,3 +1,6 @@
 [submodule "TeamCityUnityBuild/Assets/3PP/buildtool"]
 	path = TeamCityUnityBuild/Assets/3PP/buildtool
 	url = https://github.com/o92design/buildtool.git
+[submodule "TeamCityUnityBuild/Assets/3PP/buildactions"]
+	path = TeamCityUnityBuild/Assets/3PP/buildactions
+	url = https://github.com/o92design/buildactions.git
