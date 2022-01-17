@@ -61,20 +61,20 @@ MonoBehaviour:
         - fileGUID: 2cda990e2423bbf4892e6590ba056729
   _platformList:
     platforms:
-    - {fileID: 3987259100734540973}
+    - {fileID: 6100154266080431692}
   _projectConfigurations:
     configSet:
-      _Buckets: 02000000ffffffffffffffff01000000ffffffffffffffff03000000
-      _HashCodes: be36bd0029c6d86083c47952a7676149000000000000000000000000
-      _Next: ffffffffffffffff00000000ffffffff000000000000000000000000
+      _Buckets: 02000000ffffffff0000000001000000ffffffffffffffff03000000
+      _HashCodes: f24bad18a728bd13b7d47a29a7676149000000000000000000000000
+      _Next: ffffffffffffffffffffffffffffffff000000000000000000000000
       _Count: 4
       _Version: 4
       _FreeList: -1
       _FreeCount: 0
       _Keys:
-      - Development/PC/Windows x64 (App)/itch
-      - Development/PC/Windows x64 (App)
-      - Development/PC
+      - Development/WebGL/WebGL/itch
+      - Development/WebGL/WebGL
+      - Development/WebGL
       - Development
       - 
       - 
@@ -84,13 +84,13 @@ MonoBehaviour:
         childKeys: []
       - enabled: 1
         childKeys:
-        - Development/PC/Windows x64 (App)/itch
+        - Development/WebGL/WebGL/itch
       - enabled: 1
         childKeys:
-        - Development/PC/Windows x64 (App)
+        - Development/WebGL/WebGL
       - enabled: 1
         childKeys:
-        - Development/PC
+        - Development/WebGL
       - enabled: 1
         childKeys: []
       - enabled: 1
@@ -136,7 +136,7 @@ MonoBehaviour:
   channelName: $PLATFORM-$ARCHITECTURE
   showUploadProgress: 1
   itchChannelOverride: 
---- !u!114 &3987259100734540973
+--- !u!114 &6100154266080431692
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2786f6b2301a94f4288672ff5305244c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0acaf75cc66fc934ea46bf602fc7c245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enabled: 1
@@ -154,20 +154,11 @@ MonoBehaviour:
     - distributionName: itch
       enabled: 1
   architectures:
-  - target: 5
-    name: Windows x86
-    enabled: 0
-    binaryNameFormat: '{0}.exe'
-  - target: 19
-    name: Windows x64
+  - target: 20
+    name: WebGL
     enabled: 1
-    binaryNameFormat: '{0}.exe'
-  variants:
-  - variantName: Build Output
-    selectedIndex: 0
-    values:
-    - App
-    - Visual Studio Solution
-  platformName: PC
+    binaryNameFormat: '{0}'
+  variants: []
+  platformName: WebGL
   dataDirNameFormat: '{0}_Data'
-  targetGroup: 1
+  targetGroup: 13
