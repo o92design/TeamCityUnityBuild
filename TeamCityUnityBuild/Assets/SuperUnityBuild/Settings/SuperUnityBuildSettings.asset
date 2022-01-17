@@ -28,7 +28,7 @@ MonoBehaviour:
       bundleIdentifier: com.DefaultCompany.TeamCityUnityBuild
       companyName: o92design
       productName: TeamCityUnityBuild
-      buildOptions: 1
+      buildOptions: 0
       customDefines: 
       sceneList:
         enabledScenes:
@@ -76,7 +76,7 @@ MonoBehaviour:
     showBuildInfo: 0
     hideDisabled: 0
     treeView: 0
-    selectedKeyChain: 
+    selectedKeyChain: Development/PC/Windows x64 (App)/itch
   _preBuildActions:
     buildActions: []
   _postBuildActions:
