@@ -36,26 +36,25 @@ MonoBehaviour:
   _platformList:
     platforms:
     - {fileID: 7009401285295302743}
-    - {fileID: 2654987186979972349}
   _projectConfigurations:
     configSet:
-      _Buckets: 05000000ffffffff0000000004000000ffffffffffffffff06000000
-      _HashCodes: f24bad18a728bd13b7d47a29be36bd0029c6d86083c47952a7676149
-      _Next: ffffffffffffffffffffffff020000000100000003000000ffffffff
-      _Count: 7
-      _Version: 7
+      _Buckets: 02000000ffffffff0000000001000000ffffffffffffffff03000000
+      _HashCodes: f24bad18a728bd13b7d47a29a7676149000000000000000000000000
+      _Next: ffffffffffffffffffffffffffffffff000000000000000000000000
+      _Count: 4
+      _Version: 4
       _FreeList: -1
       _FreeCount: 0
       _Keys:
       - Development/WebGL/WebGL/itch
       - Development/WebGL/WebGL
       - Development/WebGL
-      - Development/PC/Windows x64 (App)/itch
-      - Development/PC/Windows x64 (App)
-      - Development/PC
       - Development
+      - 
+      - 
+      - 
       _Values:
-      - enabled: 0
+      - enabled: 1
         childKeys: []
       - enabled: 1
         childKeys:
@@ -64,17 +63,14 @@ MonoBehaviour:
         childKeys:
         - Development/WebGL/WebGL
       - enabled: 1
-        childKeys: []
-      - enabled: 1
-        childKeys:
-        - Development/PC/Windows x64 (App)/itch
-      - enabled: 1
-        childKeys:
-        - Development/PC/Windows x64 (App)
-      - enabled: 1
         childKeys:
         - Development/WebGL
-        - Development/PC
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
     showViewOptions: 0
     showConfigs: 0
     showBuildInfo: 0
@@ -85,41 +81,6 @@ MonoBehaviour:
     buildActions: []
   _postBuildActions:
     buildActions: []
---- !u!114 &2654987186979972349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2786f6b2301a94f4288672ff5305244c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enabled: 1
-  distributionList:
-    distributions:
-    - distributionName: itch
-      enabled: 1
-  architectures:
-  - target: 5
-    name: Windows x86
-    enabled: 0
-    binaryNameFormat: '{0}.exe'
-  - target: 19
-    name: Windows x64
-    enabled: 1
-    binaryNameFormat: '{0}.exe'
-  variants:
-  - variantName: Build Output
-    selectedIndex: 0
-    values:
-    - App
-    - Visual Studio Solution
-  platformName: PC
-  dataDirNameFormat: '{0}_Data'
-  targetGroup: 1
 --- !u!114 &7009401285295302743
 MonoBehaviour:
   m_ObjectHideFlags: 0
