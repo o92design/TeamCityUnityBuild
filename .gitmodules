@@ -1,0 +1,3 @@
+[submodule "TeamCityUnityBuild/Assets/3PP/buildtool"]
+	path = TeamCityUnityBuild/Assets/3PP/buildtool
+	url = git@github.com:superunitybuild/buildtool.git
